@@ -1,5 +1,4 @@
-#AppID 5a93e4a6-1773-407e-bc6d-c2b68221b129
-#Access Token LC47AJSUQUFLUPZOOGBUSEBW2CSR5YDR
+
 ####################################################################
 #    Animus AI Developed by Kuldeep Paul Dated 19th March 2018     #
 #    Animus Core                                                   #

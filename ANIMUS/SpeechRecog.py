@@ -16,7 +16,7 @@ from playdong import playdong
 API_ENDPOINT = 'https://api.wit.ai/speech'
 
 # Wit.ai api access token
-wit_access_token = 'LC47AJSUQUFLUPZOOGBUSEBW2CSR5YDR'
+wit_access_token = 'Your Wit Access Token Here'
 
 
 def hear(AUDIO_FILENAME, num_seconds = 5):

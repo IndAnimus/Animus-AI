@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>AnimusAI</class>
+ <widget class="QMainWindow" name="AnimusAI">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>640</width>
+    <height>480</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Animus AI</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTabWidget" name="tabWidget">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>20</y>
+      <width>621</width>
+      <height>421</height>
+     </rect>
+    </property>
+    <property name="currentIndex">
+     <number>0</number>
+    </property>
+    <widget class="QWidget" name="dashboard">
+     <attribute name="title">
+      <string>Animus Dashboard</string>
+     </attribute>
+     <widget class="QPushButton" name="Send">
+      <property name="geometry">
+       <rect>
+        <x>480</x>
+        <y>320</y>
+        <width>111</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>OK</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>621</width>
+        <height>281</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Animus AI</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+      </property>
+     </widget>
+     <widget class="QTextEdit" name="Message">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>290</y>
+        <width>461</width>
+        <height>75</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="Start">
+      <property name="geometry">
+       <rect>
+        <x>478</x>
+        <y>280</y>
+        <width>111</width>
+        <height>27</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Start</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="help">
+     <attribute name="title">
+      <string>Help</string>
+     </attribute>
+     <widget class="QLabel" name="label_2">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>40</y>
+        <width>551</width>
+        <height>301</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Animus has been developed with
+majorly open source Machine
+Learning and Natural Language
+Processing Components. Animus is
+the only AI assistant in the market
+that has the ability to understand
+and interact with visual data.
+Animus understands your needs
+and learns from your activities. We
+have made animus more useful by
+implementing many skills like
+Hailing an Uber ride, reading out
+your mail and Searching the web
+for content.
+Animus can run on even a
+raspberry pi and we hope to port it
+to windows very soon.</string>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignJustify|Qt::AlignTop</set>
+      </property>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="account">
+     <attribute name="title">
+      <string>Account</string>
+     </attribute>
+     <widget class="QTextEdit" name="Email">
+      <property name="geometry">
+       <rect>
+        <x>110</x>
+        <y>80</y>
+        <width>481</width>
+        <height>31</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_3">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>90</y>
+        <width>68</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Email-ID:</string>
+      </property>
+     </widget>
+     <widget class="QTextEdit" name="EmailPass">
+      <property name="geometry">
+       <rect>
+        <x>110</x>
+        <y>120</y>
+        <width>261</width>
+        <height>31</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_4">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>130</y>
+        <width>68</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Password:</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_5">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>170</y>
+        <width>101</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Wit.Ai API Key:</string>
+      </property>
+     </widget>
+     <widget class="QTextEdit" name="Wit">
+      <property name="geometry">
+       <rect>
+        <x>140</x>
+        <y>160</y>
+        <width>451</width>
+        <height>31</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QTextEdit" name="Wolfram">
+      <property name="geometry">
+       <rect>
+        <x>140</x>
+        <y>200</y>
+        <width>451</width>
+        <height>31</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_6">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>40</y>
+        <width>68</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Name:</string>
+      </property>
+     </widget>
+     <widget class="QTextEdit" name="Name">
+      <property name="geometry">
+       <rect>
+        <x>110</x>
+        <y>40</y>
+        <width>381</width>
+        <height>31</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_7">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>210</y>
+        <width>121</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Wolfram API Key:</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_8">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>250</y>
+        <width>161</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>OpenWeather API Key:</string>
+      </property>
+     </widget>
+     <widget class="QTextEdit" name="Weather">
+      <property name="geometry">
+       <rect>
+        <x>180</x>
+        <y>240</y>
+        <width>411</width>
+        <height>31</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="Save">
+      <property name="geometry">
+       <rect>
+        <x>450</x>
+        <y>290</y>
+        <width>111</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Save</string>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>640</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuAnimus_AI">
+    <property name="title">
+     <string>Animus AI</string>
+    </property>
+   </widget>
+   <addaction name="menuAnimus_AI"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <tabstops>
+  <tabstop>tabWidget</tabstop>
+  <tabstop>Message</tabstop>
+  <tabstop>Send</tabstop>
+  <tabstop>Email</tabstop>
+  <tabstop>EmailPass</tabstop>
+  <tabstop>Wolfram</tabstop>
+  <tabstop>Wit</tabstop>
+  <tabstop>Save</tabstop>
+  <tabstop>Name</tabstop>
+  <tabstop>Weather</tabstop>
+ </tabstops>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>Send</sender>
+   <signal>clicked()</signal>
+   <receiver>label</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>544</x>
+     <y>411</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>370</x>
+     <y>281</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Save</sender>
+   <signal>clicked()</signal>
+   <receiver>Wolfram</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>479</x>
+     <y>396</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>336</x>
+     <y>284</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Start</sender>
+   <signal>clicked()</signal>
+   <receiver>Message</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>522</x>
+     <y>372</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>465</x>
+     <y>377</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>
